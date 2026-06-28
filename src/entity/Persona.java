@@ -7,8 +7,13 @@ public class Persona {
       public Persona(String name, String surname) {
     	  this.name = name;
     	  this.surname = surname;
+    	  
+    	  
+    	  
+    	   
       }
       
+
       public String getName() {
     	  return name;
       }
@@ -16,4 +21,10 @@ public class Persona {
       public void print() {
     	  System.out.println("Buonasera");
       }
+
+      
+       public void hello() {
+    	   System.out.println("   buongiorno  "+"  io sono   "  +   name);
+       }
+
 }
