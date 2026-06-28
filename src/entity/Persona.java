@@ -12,6 +12,8 @@ public class Persona {
     	  
     	   
       }
+      
+      
        public void hello() {
     	   System.out.println("buongiorno");
        }
