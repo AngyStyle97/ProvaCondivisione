@@ -7,6 +7,12 @@ public class Persona {
       public Persona(String name, String surname) {
     	  this.name = name;
     	  this.surname = surname;
+    	  
+    	  
+    	  
+    	   
       }
-      
+       public void hello() {
+    	   System.out.println("buongiorno");
+       }
 }
