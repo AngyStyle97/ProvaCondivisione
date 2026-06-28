@@ -12,4 +12,8 @@ public class Persona {
       public String getName() {
     	  return name;
       }
+      
+      public void print() {
+    	  System.out.println("Buonasera");
+      }
 }
