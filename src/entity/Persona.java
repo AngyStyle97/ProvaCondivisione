@@ -15,6 +15,6 @@ public class Persona {
       
       
        public void hello() {
-    	   System.out.println("buongiorno");
+    	   System.out.println("   buongiorno  "+"  io sono   "  +   name);
        }
 }
