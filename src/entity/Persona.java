@@ -9,4 +9,7 @@ public class Persona {
     	  this.surname = surname;
       }
       
+      public String getName() {
+    	  return name;
+      }
 }
