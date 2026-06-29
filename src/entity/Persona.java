@@ -6,15 +6,22 @@ public class Persona {
       public String email;
       public String password; 
       
-      public Persona(String name, String surname) {
+      public Persona(String name, String surname,String email,String password) {
     	  this.name = name;
     	  this.surname = surname;
+    	  this.email=email;
+    	  this.password=password;
+    	  
     	  
     	  
     	  
     	   
       }
       
+      
+
+      
+        
 
       public String getName() {
     	  return name;
