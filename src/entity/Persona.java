@@ -3,6 +3,8 @@ package entity;
 public class Persona {
       private String name;
       private String surname;
+      public String email;
+      public String password; 
       
       public Persona(String name, String surname) {
     	  this.name = name;
@@ -25,6 +27,16 @@ public class Persona {
       
        public void hello() {
     	   System.out.println("   buongiorno  "+"  io sono   "  +   name);
+       }
+       
+       
+       public String getpassword() {
+    	   
+    	   return password;
+       }
+       
+       public String getemail() {
+    	   return email;
        }
 
 }
